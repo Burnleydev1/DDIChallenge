@@ -1,0 +1,17 @@
+node_modules/
+dist/
+
+# Playwright output — regenerated on every run
+test-results/
+playwright-report/
+blob-report/
+reports/
+
+# OS and editor files
+.env
+*.log
+.DS_Store
+Thumbs.db
+
+# Excel lock files
+~$*.xlsx
