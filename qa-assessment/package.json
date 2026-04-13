@@ -1,0 +1,23 @@
+{
+  "name": "qa-assessment",
+  "version": "1.0.0",
+  "description": "QA automation tests for user profile creation form",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:webkit": "npx playwright test --project=webkit",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "report": "npx playwright show-report",
+    "performance": "npx playwright test --project=chromium --reporter=json > reports/performance-report.json"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  },
+  "keywords": ["qa", "playwright", "automation", "testing"],
+  "author": "",
+  "license": "ISC"
+}
