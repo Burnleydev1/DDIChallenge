@@ -24,8 +24,8 @@ Automated test suite for the user profile creation form at [https://qa-assessmen
 
 ```bash
 # 1. Clone the repository
-git clone <your-repo-url>
-cd qa-assessment
+git clone git@github.com:Burnleydev1/DDIChallenge.git
+cd DDIChallenge
 
 # 2. Install dependencies
 npm install
